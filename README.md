@@ -68,12 +68,12 @@ Open [RaiSim Unity](https://raisim.com/sections/RaisimUnity.html) to see the vis
 
 Run *point-goal navigation* with trained weight (click 'c' to continue when pdb stops the code)
 ```
-python complex-env-navigation/raisimGymTorch/env/envs/test/pgn_runner.py
+python raisimGymTorch/env/envs/test/pgn_runner.py
 ```
 
 Run *safety-remote control* with trained weight (click 'c' to continue when pdb stops the code)
 ```
-python complex-env-navigation/raisimGymTorch/env/envs/test/src_runner.py
+python raisimGymTorch/env/envs/test/src_runner.py
 ```
 
 # Train model from scratch
